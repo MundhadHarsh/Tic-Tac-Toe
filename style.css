@@ -13,7 +13,7 @@ body{
 }
 
 .board{
-    width: 100w;
+    width: 100vw;
     height: 100vh;
     display: grid;
     justify-content: center;
@@ -58,7 +58,7 @@ body{
 }
 
 .board.x .cell:hover{
-    
+
 }
 
 .cell.x::before,
