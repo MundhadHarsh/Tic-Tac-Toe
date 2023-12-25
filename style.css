@@ -49,7 +49,16 @@ body{
 .cell:last-child,
 .cell:nth-child(8),
 .cell:nth-child(7){
-    border-top:none
+    border-bottom:none
+}
+
+.cell.x,
+.cell.cicrle{
+    cursor:not-allowed;
+}
+
+.board.x .cell:hover{
+    
 }
 
 .cell.x::before,
